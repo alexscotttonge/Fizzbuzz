@@ -13,4 +13,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 
+  it 'returns the number parameter when it is not a factor of 3 or 5' do
+    expect(fizzbuzz(11)).to eq 11
+  end
+
 end
